@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Sans-serif;
+}
+
+.topo, .rodape {
+    background: #1d6e4d;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 16px 0;
+    width: 100%;
+}
+
+.largura-limitada {
+    width: 1024px;
+    margin: 0 auto;
+    max-width: 100%;
+    min-width: none;
+}
+
+.secao {
+    margin: 20px 35px;
+    text-align: justify;
+}
+
+.apresentacao img {
+    width: 100%;
+}
+
+.secao h2, .secao p {
+    margin: 0 0 20px 0;
+}
+
+.galeria {
+    display: flex;
+}
+
+.galeria img {
+    width: calc((100% / 3) - 3px);
+    margin: 0 1.5px;
+}
